@@ -18,6 +18,7 @@ public class Test23 {
 		req.basePath("V1/index.php");
 		req.auth().form("mngr356676","deqUpav",fc);
 		Response res=req.post();
+		System.out.println(res);
 	    res.then().log().all();
 		
 

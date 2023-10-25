@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[books are available in store]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfull Creating new User]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully generatetoken]]>
+    </line>
+    <line>
+      <![CDATA[true]]>
+    </line>
+    <line>
+      <![CDATA[User is authorized to do further tasks]]>
+    </line>
+    <line>
+      <![CDATA[Successful addition of books to user]]>
+    </line>
+    <line>
+      <![CDATA[Successful addition of books to user]]>
+    </line>
+    <line>
+      <![CDATA[Successful addition of books to user]]>
+    </line>
+    <line>
+      <![CDATA[Successful addition of books to user]]>
+    </line>
+    <line>
+      <![CDATA[Successful addition of books to user]]>
+    </line>
+    <line>
+      <![CDATA[Successful addition of books to user]]>
+    </line>
+    <line>
+      <![CDATA[Successful addition of books to user]]>
+    </line>
+    <line>
+      <![CDATA[Successful addition of books to user]]>
+    </line>
+    <line>
+      <![CDATA[Git Pocket Guide<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Learning JavaScript Design Patterns<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Designing Evolvable Web APIs with ASP.NET<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Speaking JavaScript<br/>]]>
+    </line>
+    <line>
+      <![CDATA[You Don't Know JS<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Programming JavaScript Applications<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Eloquent JavaScript, Second Edition<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Understanding ECMAScript 6<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Successful deletion of user]]>
+    </line>
+    <line>
+      <![CDATA[Successful deletion of user]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-10T12:48:52 IST" name="Default suite" finished-at="2023-10-10T12:49:38 IST" duration-ms="46032">
+    <groups>
+    </groups>
+    <test started-at="2023-10-10T12:48:52 IST" name="Default test" finished-at="2023-10-10T12:49:38 IST" duration-ms="46032">
+      <class name="tests.Test29">
+        <test-method signature="getAllBooksInStore()[pri:1, instance:tests.Test29@2d52216b]" started-at="2023-10-10T12:48:52 IST" name="getAllBooksInStore" finished-at="2023-10-10T12:48:58 IST" duration-ms="6276" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[books are available in store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAllBooksInStore -->
+        <test-method signature="createUser()[pri:2, instance:tests.Test29@2d52216b]" started-at="2023-10-10T12:48:58 IST" name="createUser" finished-at="2023-10-10T12:49:00 IST" depends-on-methods="tests.Test29.getAllBooksInStore" duration-ms="1945" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucessfull Creating new User]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="generateToken()[pri:3, instance:tests.Test29@2d52216b]" started-at="2023-10-10T12:49:00 IST" name="generateToken" finished-at="2023-10-10T12:49:02 IST" depends-on-methods="tests.Test29.createUser" duration-ms="2015" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucessfully generatetoken]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- generateToken -->
+        <test-method signature="verifyUser()[pri:4, instance:tests.Test29@2d52216b]" started-at="2023-10-10T12:49:02 IST" name="verifyUser" finished-at="2023-10-10T12:49:03 IST" depends-on-methods="tests.Test29.generateToken" duration-ms="1165" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[true]]>
+            </line>
+            <line>
+              <![CDATA[User is authorized to do further tasks]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method signature="addBooks()[pri:5, instance:tests.Test29@2d52216b]" started-at="2023-10-10T12:49:03 IST" name="addBooks" finished-at="2023-10-10T12:49:19 IST" depends-on-methods="tests.Test29.verifyUser" duration-ms="15357" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successful addition of books to user]]>
+            </line>
+            <line>
+              <![CDATA[Successful addition of books to user]]>
+            </line>
+            <line>
+              <![CDATA[Successful addition of books to user]]>
+            </line>
+            <line>
+              <![CDATA[Successful addition of books to user]]>
+            </line>
+            <line>
+              <![CDATA[Successful addition of books to user]]>
+            </line>
+            <line>
+              <![CDATA[Successful addition of books to user]]>
+            </line>
+            <line>
+              <![CDATA[Successful addition of books to user]]>
+            </line>
+            <line>
+              <![CDATA[Successful addition of books to user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addBooks -->
+        <test-method signature="getBooks()[pri:6, instance:tests.Test29@2d52216b]" started-at="2023-10-10T12:49:19 IST" name="getBooks" finished-at="2023-10-10T12:49:33 IST" depends-on-methods="tests.Test29.addBooks" duration-ms="14474" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Git Pocket Guide<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Learning JavaScript Design Patterns<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Designing Evolvable Web APIs with ASP.NET<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Speaking JavaScript<br/>]]>
+            </line>
+            <line>
+              <![CDATA[You Don't Know JS<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Programming JavaScript Applications<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Eloquent JavaScript, Second Edition<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Understanding ECMAScript 6<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getBooks -->
+        <test-method signature="deleteBooks()[pri:7, instance:tests.Test29@2d52216b]" started-at="2023-10-10T12:49:33 IST" name="deleteBooks" finished-at="2023-10-10T12:49:35 IST" depends-on-methods="tests.Test29.addBooks" duration-ms="2211" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successful deletion of user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteBooks -->
+        <test-method signature="deleteuser()[pri:8, instance:tests.Test29@2d52216b]" started-at="2023-10-10T12:49:35 IST" name="deleteuser" finished-at="2023-10-10T12:49:38 IST" depends-on-methods="tests.Test29.verifyUser" duration-ms="2455" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successful deletion of user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- tests.Test29 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
